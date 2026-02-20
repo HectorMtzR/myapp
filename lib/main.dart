@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/homePage.dart';
+import 'package:myapp/screens/homePage.dart';
 
 void main() => runApp(const CitaDiaria());
 
@@ -10,8 +10,11 @@ class CitaDiaria extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(useMaterial3: true),
-      home: const FrasePage(),
+      theme: ThemeData(
+        useMaterial3: true,
+        colorSchemeSeed: Colors.indigo,
+      ),
+      home: FrasePage(), // Ahora ya sabe qué es esto
     );
   }
 }
