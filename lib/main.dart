@@ -25,6 +25,11 @@ class _FrasePageState extends State<FrasePage> {
     Colors.orange,
     Colors.green,
     Colors.purple,
+    Colors.teal,
+    Colors.brown,
+    Colors.pink,
+    Colors.indigo,
+    Colors.yellow,
   ];
   Color _colorActual = Colors.white;
 
@@ -34,6 +39,12 @@ class _FrasePageState extends State<FrasePage> {
     "Cero Miedo",
     "Fallas el 100% de los tiros que no haces",
     "Te deseo éxito, suerte no, por que la suerte es para los mediocres.",
+    "El código es como el humor. Cuando tienes que explicarlo, no es tan bueno.",
+    "La simplicidad es la máxima sofisticación.",
+    "El código limpio siempre gana.",
+    "No te preocupes por el fracaso, preocúpate por las oportunidades que pierdes cuando ni siquiera lo intentas.",
+    "El código es como un jardín: si no lo cuidas, se llena de maleza.",
+    "La programación es el arte de convertir café en código.",
   ];
 
   String _fraseActual = "Presiona el botón para motivarte.";
